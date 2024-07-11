@@ -9,7 +9,7 @@ header{
     display: flex;
     width: 100vw;
     justify-content: flex-end;
-    height: 60px;
+    height: 80px;
     background-color: #393e46;
     align-items: center;
 }
@@ -17,7 +17,7 @@ header{
 span{
     position: absolute;
     left: 30px;
-    top: 15px;
+    top: 25px;
     color: var(--color3);
     font-size: 24px;
     font-weight: bolder;

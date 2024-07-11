@@ -3,9 +3,12 @@ import './load.css'
 import odin from './odin.png'
 export default function createPage(){
     const content = document.getElementById('content')
+    content.innerHTML = ''
     const textContainer = document.createElement('div')
     const imgContainer = document.createElement('div')
-
+    content.classList.add('home')
+    content.classList.remove('menu')
+    content.classList.remove('about')
 
     const odinImg = document.createElement('img')
     odinImg.setAttribute('id', 'odin_img')
